@@ -27,12 +27,12 @@ int main()
 			sumap = sumap + tab[i];
 		}
 		 
-		else if (i % 2 == 1) {
+		if (i % 2 == 1) {
 
 			sumanp = sumanp + tab[i];
 		}
 
-		else if (tab[i] < 0) {
+		if (tab[i] < 0) {
 			sumau = sumau + tab[i];
 		}
 		
